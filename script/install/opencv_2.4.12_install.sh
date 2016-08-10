@@ -20,7 +20,7 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
       -D INSTALL_C_EXAMPLE=ON \
       ..
 make -j4
-make -j4 install
+sudo make -j4 install
 
 #env config
 echo "# Use OpenCV and other custom-built libraries." >> ~/.bashrc
